@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>登录</title>
+	</head>
+	
+	<style>
+		*{
+			margin: 0%;
+			padding: 0%;
+		}
+		
+		body{
+			height: 100%;
+			width: 100%;
+			background-color: rgb(119, 165, 250);
+		}
+	</style>
+	
+	<body>
+		<div class="p1">
+			<p>游客，你好!</p>
+			<span>用户名:</sapn>
+			<input type="text"/><br /><br />
+			<span>密码:</span>
+			<input type="text"/><br /><br />
+			<input type="button" value="登录"/>
+		</div>
+	</body>
+</html>
